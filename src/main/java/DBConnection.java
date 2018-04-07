@@ -13,8 +13,8 @@ public class DBConnection {
     //private static final String URL = "jdbc:mysql://localhost:3306/test";
     //private static final String PASS = "root";
     //private static final String LOGIN = "123qweasd";
-    Properties prop = new Properties();
-    FileInputStream fs;
+    private Properties prop = new Properties();
+    private FileInputStream fs;
     private Connection connection;
     public DBConnection(){
         try {
